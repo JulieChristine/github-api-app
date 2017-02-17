@@ -1,0 +1,9 @@
+# compiled output
+.DS_Store
+tmp/
+build/
+.env
+
+# dependencies
+node_modules/
+bower_components/

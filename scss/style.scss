@@ -1,0 +1,18 @@
+$gray : rgb(40, 44, 52);
+$green : #75B975;
+
+.container {
+  display: block;
+  height: 720px;
+  text-align: center;
+  font-family: 'Inconsolata', monospace, 'Courier New', Courier;
+  color: rgb(164, 171, 183);
+  background: $gray;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: $green;
+    color: white;
+  }
+}

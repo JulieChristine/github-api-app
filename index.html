@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/style.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <title>Github User Lookup</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Github User Lookup</h1>
+      <p>Please enter a GitHub username into the form, submit it, and see names and descriptions of that person's public repository.</p>
+      <label for="username">Enter a GitHub username:</label>
+      <input id="username" type="string"></input>
+      <button class="btn-success" id="usernameInfo" type="submit">Submit</button>
+    <br/>
+    <br/>
+      <div class="showRepos"></div>
+      <div class="showFollowers"></div>
+      <div class="showLocation"></div>
+    </div>
+  </body>
+</html>
